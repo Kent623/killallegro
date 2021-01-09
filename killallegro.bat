@@ -2,8 +2,8 @@
 ::cd /d %CurDir%
 
 md Pdf
-::md Brd	                ::若想连Brd文件也处理，可将注释去掉，但不建议
-md Arkwork 
+::md Brd				::若想连Brd文件也处理，可将注释去掉，但不建议
+md Arkwork
 md Arkwork\ASM
 md Arkwork\CAM
 md Arkwork\SMT
@@ -19,7 +19,7 @@ move *.rou Arkwork\CAM
 copy *.pdf Pdf
 copy ASM.pdf Arkwork\ASM
 copy SMT.pdf Arkwork\SMT
-::move *.brd Brd		 ::若想连Brd文件也处理，可将注释去掉，但不建议
+::move *.brd Brd		::若想连Brd文件也处理，可将注释去掉，但不建议
 
 rd signoise.run /s 		/q
 del ".\*.log" 	/s 	/f 	/q
