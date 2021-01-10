@@ -22,20 +22,29 @@ copy SMT.pdf Arkwork\SMT
 ::move *.brd Brd		::若想连Brd文件也处理，可将注释去掉，但不建议
 
 rd signoise.run /s 		/q
+rd sigxp.run 	/s 		/q
+del ".\*.clp"	/s	/f 	/q
+del ".\*.lck"		/f 	/q
 del ".\*.log" 	/s 	/f 	/q
 del ".\*.log,*" /s 	/f 	/q
-del ".\*.art,*" 	/f 	/q
 del ".\*.jrl" 	/s	/f 	/q
 del ".\*.jrl,*" /s 	/f 	/q
+del ".\*.tag"	/s	/f	/q
 del ".\*.txt" 		/f 	/q
 del ".\*.txt,*" 	/f 	/q
+del ".\*.did"	/s	/f	/q
 del ".\*.dml" 	/s 	/f 	/q
+del ".\*.dml,*" /s 	/f 	/q
+del ".\*.dmp"	/s  /f	/q
+del ".\*.drl,*" 	/f 	/q
 del ".\*.iml" 	/s 	/f 	/q
 del ".\*.iml,*" /s 	/f 	/q
 del ".\*.ipc,*" 	/f 	/q
 del ".\*.rou,*" 	/f 	/q
-del ".\*.drl,*" 	/f 	/q
-del ".\*.lck"		/f 	/q
+del ".\*.rpt"	/s 	/f 	/q
+del ".\*.sts"	/s	/f	/q
 del ".\*.pdf"		/f 	/q
+del ".\*.art,*" 	/f 	/q
+
 
 exit
