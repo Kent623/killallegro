@@ -26,6 +26,7 @@ rd signoise.run /s 		/q
 rd sigxp.run 	/s 		/q
 del ".\*.clp"	/s	/f 	/q
 del ".\*.cnv"	/s	/f 	/q
+del ".\*.form"	/s 	/f 	/q
 del ".\*.lck"	/s	/f 	/q
 del ".\*.log" 	/s 	/f 	/q
 del ".\*.log,*" /s 	/f 	/q
